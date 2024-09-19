@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página de prácticas masterD">
+    <meta name="robots" content="NOFOLLOW">
+    <meta name="Author" content="Víctor Barrio">
+    <meta name="keywords" content="Demo, Prueba,Práctica4">
+    <meta name="lang" content="es">
+    <meta name="revisit-ater" content="2 days">
+    <meta name="category" content="Prácticas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <title>Pr&aacute;ctica 4 - Sitio Web</title>
+</head>
+<body>
+    <!-- Cabecera del sitio Web -->
+    <header>
+        <div id="div_header">
+            <img src="img/Cabecera.png" id="img_header" alt="Imagen de cabecera" title="Imagen de cabecera">
+        </div>
+        <!-- Creación del menu para la navegación -->
+        <nav>
+            <div class="div_menu">
+                <span class="boton">
+                    <a href="index.html" class="menu_div">&Iacute;ndice</a>
+                </span>
+                <span class="boton">
+                    <a href="enlace1.html" class="menu_div">Noticias</a>
+                </span>
+                <span class="boton">
+                    <a href="enlace2.html" class="menu_div">Enlaces</a>
+                </span>
+                <span class="boton">
+                    <a href="enlace3.html" class="menu_div">Galer&iacute;a</a>
+                </span>
+                <span class="botonin">
+                    <a href="#" class="menu_div">Registro</a>
+                </span>
+            </div>
+        </nav>
+    </header>
+    <!-- Cuerpo de la página REGISTRO -->
+    <section>
+        <div id="div_formulario">
+            <article>
+                <header>
+                    <h1>Formulario de Incripción</h1>
+                </header>
+                <span><img id="imagen_long" src="img/logo-exitae-long.jpg"></span>
+            </article>
+            <article>
+                <div class="formulario">
+                    <header>
+                        <h2>RELLENA LOS SIGUIENTES CAMPOS:</h2><br>
+                    </header>
+                    <form>
+                        <table>
+                            <tr>
+                                <td>NOMBRE:</td>
+                                <td class="column2"><input type="text" name="nombre" class="caja_gris" maxlength="50" size="40" id="NOMBRE" value="" placeholder="Nombre        (requerido)" required></td>
+                            </tr>
+                            <tr>
+                                <td>DIRECCI&Oacute;N:</td>
+                                <td class="column2"><input type="text" name="direccion" class="caja_gris" maxlength="50" size="40" id="DIRECCION" value="" placeholder="Direcci&oacute;n       (requerido)" required></td>
+                            </tr>
+                            <tr>
+                                <td>TELEFONO DE<br> CONTACTO:</td>
+                                <td class="column2"><input type="text" name="telefono" class="caja_gris" maxlength="9" size="30" id="TELEFONO" value="" placeholder="Télefono        (requerido)" required></td>
+                            </tr>
+                            <tr>
+                                <td>EDAD:</td>
+                                <td class="column2"><input type="text" name="edad" class="caja_gris" maxlength="3" size="20" id="EDAD" value="" placeholder="Edad  (requerido)" required></td>
+                            </tr>
+                            <tr>
+                                <td>E-MAIL:</td>
+                                <td class="column2"><input type="text" name="mail" class="caja_gris" maxlength="50" size="40" id="MAIL" value="" placeholder="Direccion@correo.com (requerido)" required></td>
+                            </tr>
+                        </table>
+                        <input type="submit" name="Boton de enviar" value="ENVIAR FORMULARIO" class="boton_form morado">
+                        <input type="reset" name="Boton de borrado" value="BORRAR FORMULARIO" class="boton_form morado">
+                    </form>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- Aqui añadiremos el pié de página -->
+    <footer>
+        <div id="div_footer">
+            <h3>:: Exitae :: Pr&aacute;ctica HTML y CSS :: Todos los derechos reservados ::</h3>
+        </div>
+    </footer>
+</body>
+</html>
